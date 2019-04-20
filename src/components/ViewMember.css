@@ -1,0 +1,34 @@
+.View {
+  width: 100%;
+  height: 100%;
+  background-color: #F8E0E6; }
+
+.Profile, .Profile2 {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center; }
+  .Profile img, .Profile2 img {
+    margin-top: 10px;
+    width: 83%;
+    height: 96%; }
+
+.Info {
+  margin-top: 150px; }
+
+.Back {
+  font-size: 23pt;
+  margin: auto;
+  width: 49px;
+  height: 55px;
+  border: solid 1px black;
+  border-radius: 5px; }
+  .Back:hover {
+    cursor: Default;
+    box-shadow: inset 10px 0 11px #F5A9D0; }
+
+@media screen and (min-width: 320px) and (max-width: 667px) {
+  .View {
+    width: 100%; }
+  .Info {
+    margin-top: 20%; } }

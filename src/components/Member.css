@@ -1,0 +1,11 @@
+.Pic {
+  opacity: 0.5;
+  width: 16.66%;
+  height: 50%;
+  background-color: red;
+  display: inline-block; }
+  .Pic:hover {
+    opacity: 1; }
+  .Pic img {
+    width: 100%;
+    height: 100%; }

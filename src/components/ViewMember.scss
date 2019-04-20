@@ -1,0 +1,59 @@
+$sero:100%;
+
+.View {
+    width:100%;
+    height:$sero;
+    background-color:#F8E0E6;
+    
+
+}
+
+.Profile{
+    width:50%;
+    height:$sero;
+    float:left;
+    text-align: center;
+    img {
+        margin-top:10px;
+        width:83%;
+        height:96%;
+    }
+   
+    
+}
+
+.Profile2{
+    @extend .Profile ;
+}
+
+.Info{
+    margin-top:150px;
+}
+
+.Back{
+    font-size:23pt;
+    margin:auto;
+    width:49px;
+    height:55px;
+    border:solid 1px black;
+    border-radius:5px;
+    &:hover {
+        cursor:Default;
+        box-shadow:
+        inset 10px 0 11px #F5A9D0;
+        
+        
+            
+        }
+    }       
+
+
+    @media screen and (min-width:320px) and (max-width:667px){
+        .View{
+            width:100%;
+            
+        }
+        .Info{
+            margin-top:20%;
+        }
+      }

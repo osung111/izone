@@ -1,0 +1,16 @@
+.Board {
+  margin: auto;
+  width: 82%;
+  height: 49%;
+  margin-top: 3px;
+  border: solid 1px; }
+
+
+
+  @media screen and (min-width:320px) and (max-width:667px){
+    .Board{
+        width:100%;
+        margin-top:0;
+        
+    }
+  }
